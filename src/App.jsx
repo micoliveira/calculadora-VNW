@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import * as S from "./Style"
+import * as S from "./Style.jsx";
 import Button from "./components/Button.jsx";
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
   const [primeiroValor, setPrimeiroValor] = React.useState("");
   const [segundoValor, setSegundoValor] = React.useState("");
   const [operacao, setOperacao] = React.useState("");
-  const [ resultado, setResultado] = useState()
+  const [ resultado, setResultado] = useState();
 
   function handleNumberClick (numero)  {
     if(!operacao) {
@@ -38,19 +38,19 @@ function App() {
 
   function handlerClickLimparCE () {
     if (segundoValor && operacao && primeiroValor) {
-      return setSegundoValor (segundoValor.slice(0, -1))
+      return setSegundoValor (segundoValor.slice(0, -1));
     }
 
     if (operacao) {
-      return setOperacao("")
+      return setOperacao("");
     }
     
    if (primeiroValor) {
-    return setPrimeiroValor("")
+    return setPrimeiroValor("");
    }
 
     if (primeiroValor && !operacao && !segundoValor) {
-      return setPrimeiroValor (primeiroValor.slice(0, -1))
+      return setPrimeiroValor (primeiroValor.slice(0, -1));
     }
 
   }
@@ -132,11 +132,10 @@ function App() {
           <Button event={() =>handleNumberClick("3")}>3</Button>
           <Button event={() =>handleClickOperactor("+")}>+</Button>
         </div>
+        <div>
           <Button event={() =>handleNumberClick("0")}>0</Button>
           <Button event={() =>handleNumberClick(".")}>.</Button>
           <Button event={() =>handleClickIgual()}>=</Button>
-        <div>
-
         </div>
       </section>
       

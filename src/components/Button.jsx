@@ -1,12 +1,12 @@
 import React from "react";
+import * as S from "../Style"
 
 function Button  ({children, event}) {
 
-    return <button onClick={event}>
+    return ( <S.Btn onClick={event}>
     {children}
-    </button>;
+    </S.Btn> );
 
 }
-
 
 export default Button;
