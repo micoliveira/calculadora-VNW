@@ -95,18 +95,15 @@ function App() {
       
       
       <section>
+        <S.Divisão>
         {/*DISPLAY */}
-        <div>
+        <S.Divisão>
         <div>{/*OPERAÇÃO*/}
         <h2>{primeiroValor !== "" ? `${primeiroValor}  ${operacao} ${segundoValor}` : "0"}</h2>
         </div>
         
-         <div>
-          {/*resultado*/}
-          <h2>{resultado}</h2>
-
-         </div>
-        </div>
+        
+        </S.Divisão>
         
         <div>
           <Button event={() =>handlerClickLimparCE()}>CE</Button>
@@ -137,6 +134,7 @@ function App() {
           <Button event={() =>handleNumberClick(".")}>.</Button>
           <Button event={() =>handleClickIgual()}>=</Button>
         </div>
+        </S.Divisão>
       </section>
       
     </S.Main>
