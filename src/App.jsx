@@ -97,13 +97,11 @@ function App() {
       <section>
         <S.Divisão>
         {/*DISPLAY */}
-        <S.Divisão>
+        <S.Display>
         <div>{/*OPERAÇÃO*/}
         <h2>{primeiroValor !== "" ? `${primeiroValor}  ${operacao} ${segundoValor}` : "0"}</h2>
         </div>
-        
-        
-        </S.Divisão>
+        </S.Display>
         
         <div>
           <Button event={() =>handlerClickLimparCE()}>CE</Button>

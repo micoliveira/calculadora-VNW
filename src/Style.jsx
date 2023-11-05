@@ -21,10 +21,19 @@ export const Main = styled.main`
 export const Btn = styled.button`
 border: none;
 padding: 10px 15px;
- color: #ee0ac0;
+ color: black;
 border-radius: 5px;
 margin: 5px;
 background-color: white;
+
+
+@media (max-width: 1280px){
+        height: 7vh;
+        width: 7vw;
+        font-size: 20px;
+        border: solid #ee7bd7 ;
+        color:black;
+    }
 
 &:hover{
     background-color:#e8e8e8 ;
@@ -46,15 +55,27 @@ export const Divisão = styled.div`
     padding: 3px;
     margin: 4px;
     text-align: center;
+    background-color: #d397d0;
+
+    @media (max-width: 1280px){
+        height: 45vh;
+        width: 40vw;
+    }
    
 `
-
-export const Section = styled.section`
-    display: flex;
-    justify-content: space-around;
+export const Display = styled.div`
+    border-radius: 5%;
+    border: 3px #160d14 solid;
+    padding: 3px;
+    margin: 4px;
     text-align: center;
-    border: 3px #6d3b63 solid;
-    border-radius: 40%;
+    background-color: #a8d0ee;
 
-
+    @media (max-width: 1280px){
+        height: 4vh;
+        width: 33vw;
+        margin-left:18px;
+        font-size: 15px;
+        border: solid #ee7bd7 ;
+    }
 `
