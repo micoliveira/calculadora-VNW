@@ -33,6 +33,10 @@
    Conclusão:
 
    O projeto foi desafiador, apesar de ter obtido alguns problemas no caminho, me dediquei e consegui resolver e aprender e reapreder alguns conteúdos, sou imensamente grata a minha professora @mariaccarolina e meus colegas de turma, além do código puder estabelecer conexões com meus colegas que nunca será apagado! 
+
+   Esse Projeto recebera atualizações futuras de designer mais funcional. 
+
+   #Deploy do projeto :https://calculadora-vnw-eta.vercel.app/
    
 </p>
    
