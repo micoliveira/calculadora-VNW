@@ -14,8 +14,8 @@ export const Main = styled.main`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
-    `
+  
+`
 
 
 export const Btn = styled.button`
@@ -34,6 +34,14 @@ background-color: white;
         border: solid #ee7bd7 ;
         color:black;
     }
+
+@media (max-width:767px){
+    height: 7vh;
+    width: 12vw;
+    font-size: 12px;
+    font-style: oblique;
+}
+
 
 &:hover{
     background-color:#e8e8e8 ;
@@ -61,6 +69,11 @@ export const Divisão = styled.div`
         height: 45vh;
         width: 40vw;
     }
+
+    @media (max-width:767px){
+    height: 55vh;
+    width: 65vw;
+}
    
 `
 export const Display = styled.div`
@@ -71,6 +84,7 @@ export const Display = styled.div`
     text-align: center;
     background-color: #a8d0ee;
 
+
     @media (max-width: 1280px){
         height: 4vh;
         width: 33vw;
@@ -78,4 +92,9 @@ export const Display = styled.div`
         font-size: 15px;
         border: solid #ee7bd7 ;
     }
+
+    @media (max-width:800px){
+    height: 6vh;
+    width: 50vw;
+}
 `
